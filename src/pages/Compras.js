@@ -1,6 +1,6 @@
 import React from 'react';
 import { comprasLista } from '../helpers/comprasLista';
-import comprasItem from '../components/comprasItem';
+import ComprasItem from '../components/comprasItem';
 import '../styles/compras.css';
 
 function Compras() {
@@ -8,13 +8,16 @@ function Compras() {
     <div className='compras'>
       <h1 className='title'> Compras </h1>
       <div className='comprasLista'>
-        <div className='comprasItem'> {comprasLista.map((comprasItem, key) => {
-          return <comprasItem 
-          key={key}
-          image={comprasItem.image} 
-          nome={comprasItem.nome} 
-          price={comprasItem.price}/>
-        })} </div>
+          {comprasLista.map((comprasItem, key) => {
+            return (
+              <ComprasItem
+                key={key}
+                image={comprasItem.image}
+                nome={comprasItem.name}
+                price={comprasItem.price} 
+                />)
+          })} 
+
 
       </div>
 

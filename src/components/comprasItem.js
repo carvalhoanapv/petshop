@@ -1,13 +1,13 @@
 import React from 'react'
 
-function comprasItem({image, nome, price}) {
+function ComprasItem({ image, name, price }) {
   return (
     <div className='comprasItem'>
-      <div> style={{ backgroundImage: `url(${image})` }} </div>
-      <h1> {nome} </h1>
+      <div style={{ backgroundImage: `url(${image})` }}> </div>
+      <h1> {name} </h1>
       <p> $ {price} </p>
     </div>
   )
 }
 
-export default comprasItem
+export default ComprasItem
