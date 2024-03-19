@@ -1,11 +1,12 @@
 import React from 'react'
 
-function ComprasItem({ image, name, price }) {
+function ComprasItem({ image, name, price, button }) {
   return (
     <div className='comprasItem'>
       <div style={{ backgroundImage: `url(${image})` }}> </div>
-      <h1> {name} </h1>
-      <p> $ {price} </p>
+      <h> {name} </h>
+      <p> R$ {price} </p>
+      <button> {button} </button>
     </div>
   )
 }

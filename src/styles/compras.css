@@ -1,63 +1,76 @@
-.menu {
-    width: 100%;
+.compras {
+    max-width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 2em;
   }
-  .menu .menuTitle {
-    font-family: cursive;
+  .compras .comprasTitle {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 60px;
+    color: black;
+    text-align: center;
+    padding: 0 1em;
   }
   
-  .menuList {
-    width: 70vw;
+  .comprasList {
+    max-width: 70vw;
     height: auto;
     display: grid;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    padding: 0 1em;
   }
   
-  /* MENU ITEM STYLING */
+  /* compras ITEM STYLING */
   
-  .menuItem {
-    border-radius: 15px;
-    width: 300px;
+  .comprasItem {
+    border-radius: 10px;
+    max-width: 300px;
     height: 350px;
-    margin: 20px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    margin: 40px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   }
-  .menuItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  .comprasItem:hover {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
+    padding: 10px;
   }
   
-  .menuItem div {
+  .comprasItem div {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 100%;
+    max-width: 40%;
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-  }
+    background-size:contain;
+    margin-left: 30%; 
+   }
   
-  .menuItem h1,
-  .menuItem p {
-    margin-left: 20px;
+  .comprasItem h1,
+  .comprasItem p {
+    margin-left: 0%;
+    padding: 0 1em;
   }
   
   @media only screen and (max-width: 1300px) {
-    .menuList {
+    .comprasList {
       grid-template-columns: 1fr 1fr;
+      padding: 0 1em;
     }
   }
   
   @media only screen and (max-width: 800px) {
-    .menuList {
+    .comprasList {
       grid-template-columns: 1fr;
+      padding: 0 1em;
     }
   }
   
