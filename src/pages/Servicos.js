@@ -16,33 +16,51 @@ function Servicos() {
         <div className='servicos'>
             <div className='banner' style={{ backgroundImage: `url(${YorkieTosa})` }}>        </div>
 
-            <h1>Selecione o tipo de Serviço</h1>
-            {/* <div>
-                <button className='banho'>Banho</button>
-            </div>
-            <div>
-                <button className='tosa'>Banho e Hidratação</button>
-            </div>
-            <div>
-                <button className='tosa'>Banho e Tosa Higiênica</button>
+
+            <h4>Selecione o Tipo</h4>
+            <div className='check'>
+                <input value="One" type="checkbox" onChange={handleChange} />
+                <span> Cachorro </span>
             </div>
 
-            <div>
-                <button className='tosa'>Banho e Tosa Completa</button>
-            </div> */}
+            <div className='check'>
+                <input value="Three" type="checkbox" onChange={handleChange} />
+                <span> Gato </span>
+            </div>
+
+            <h4>Selecione o Porte</h4>
+            <div className='check'>
+                <input value="One" type="checkbox" onChange={handleChange} />
+                <span> Mini </span>
+            </div>
+
+            <div className='check'>
+                <input value="Three" type="checkbox" onChange={handleChange} />
+                <span> Pequeno </span>
+            </div>
+            <div className='check'>
+                <input value="One" type="checkbox" onChange={handleChange} />
+                <span> Médio </span>
+            </div>
+
+            <div className='check'>
+                <input value="Three" type="checkbox" onChange={handleChange} />
+                <span> Grande </span>
+            </div>
+
+
+            <h4>Selecione o Tipo de Serviço</h4>
 
             <div className='check'>
                 <input value="One" type="checkbox" onChange={handleChange} />
                 <span> Banho </span>
             </div>
-            <div className='check'>
-                <input value="Two" type="checkbox" onChange={handleChange} />
-                <span> Banho e Hidratação </span>
-            </div>
+
             <div className='check'>
                 <input value="Three" type="checkbox" onChange={handleChange} />
-                <span> Banho e Tosa Higienica </span>
+                <span> Banho e Tosa Higiênica </span>
             </div>
+
             <div className='check'>
                 <input value="Four" type="checkbox" onChange={handleChange} />
                 <span> Banho e Tosa Completa </span>
@@ -59,10 +77,12 @@ function Servicos() {
                     <input value="One" type="checkbox" onChange={handleChange} />
                     <span> Escovação de dentes </span>
                 </div>
+
                 <div className='check'>
                     <input value="Two" type="checkbox" onChange={handleChange} />
                     <span> Hidratação </span>
                 </div>
+
                 <div>
                     <h2>
                         <div>
