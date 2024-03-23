@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import "../styles/Carrossel.css";
-import hills_cao_umida from '../assets/hills_cao_umida.png';
-import royalCanin_cao_umida from '../assets/royalCanin_cao_umida.png';
-import whiskas_gato_castrado_umida_ from '../assets/whiskas_gato_castrado_umida_.png';
+import whiskas_offers from "../assets/whiskas_offers.png";
+import Royal_Canin_offers from "../assets/Royal_Canin_offers.png";
+import Golden_offers from "../assets/Golden_offers.png";
 
 export const Carrossel = () => {
   const [slide, setSlide] = useState(0);
@@ -18,15 +18,15 @@ export const Carrossel = () => {
 
   const data = [
     {
-      src: royalCanin_cao_umida,
+      src: whiskas_offers,
       alt: "imagem 1",
     },
     {
-      src: whiskas_gato_castrado_umida_,
+      src: Royal_Canin_offers,
       alt: "imagem 2",
     },
     {
-      src: hills_cao_umida,
+      src: Golden_offers,
       alt: "imagem 3",
     }]
 
@@ -60,6 +60,7 @@ export const Carrossel = () => {
           );
         })}
       </span>
+      
     </div>
   );
 };
