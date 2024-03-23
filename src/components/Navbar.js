@@ -10,7 +10,7 @@ function Navbar() {
       <div className='leftSide'>
         <img src={Logo} alt="logo" />
         <div className='rightSide'>
-          <Link to='/'> Inicio </Link>
+          <Link to='/petshop'> Inicio </Link>
           <Link to='/compras'> Compras </Link>
           <Link to='/promocoes'> Promoções </Link>
           <Link to='/servicos'> Banho e Tosa </Link>
