@@ -1,6 +1,6 @@
 .servicos {
     background-color: #faf4ef;
-    height: 170vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,14 +14,12 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 20%;
+        height: 50%;
         width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        line-height: 0.5;
         padding: 0 1em;
         margin-bottom: auto;
     }
@@ -39,7 +37,7 @@
     }
 
     h4 {
-        font-size: 2.0rem;
+        font-size: 1.5rem;
         font-weight: 600;
         color: black;
     }
@@ -73,7 +71,7 @@
     .check {
         display:inline-block;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 400;
         color: black;
         justify-content: left;
         align-items: left;

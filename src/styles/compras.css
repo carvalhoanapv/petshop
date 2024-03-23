@@ -15,14 +15,14 @@
     padding: 0 1em;
   }
   
-  .comprasList {
-    max-width: 70vw;
+  .comprasLista {
+    max-width: 100vw;
     height: auto;
     display: grid;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
     padding: 0 1em;
   }
@@ -61,14 +61,14 @@
   }
   
   @media only screen and (max-width: 1300px) {
-    .comprasList {
+    .comprasLista {
       grid-template-columns: 1fr 1fr;
       padding: 0 1em;
     }
   }
   
   @media only screen and (max-width: 800px) {
-    .comprasList {
+    .comprasLista {
       grid-template-columns: 1fr;
       padding: 0 1em;
     }

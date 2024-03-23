@@ -1,6 +1,5 @@
 import React from 'react'
-import YorkieTosa from '../assets/Yorkie_tosa.png';
-import '../styles/Servicos.css';
+import '../styles/Servicos2.css';
 import { Link } from 'react-router-dom';
 
 function Servico2() {
@@ -13,19 +12,22 @@ function Servico2() {
         }
     }
     return (
-        <div className='servicos'>
-            <div className='banner' style={{ backgroundImage: `url(${YorkieTosa})` }}>        </div>
 
+        <div className='servicos2'>
             <h1>Escolha as opções</h1>
 
+            <div className='check'>
             <label>
                 <input value="One" type="radio" name= "myRadio" />
                 <span> Levar meu pet à loja </span>
             </label>
+            </div>
+            <div className='check'>
             <label>
                 <input value="Two" type="radio" name='myRadio' />
                 <span> *Tele-busca </span>
             </label>
+            </div>
 
             <div>
                 <h4>
@@ -48,6 +50,8 @@ function Servico2() {
                             onChange={handleChange}
                         />
                     </label>
+                </div>
+                <div>
                     <label> No. apartamento:
                         <input
                             type="number"
@@ -70,6 +74,8 @@ function Servico2() {
                             onChange={handleChange}
                         />
                     </label>
+                </div>
+                <div>
                     <label> UF:
                         <input
                             type="text"
@@ -97,6 +103,7 @@ function Servico2() {
             </div>
             
         </div>
+
     )
 }
 

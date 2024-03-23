@@ -10,8 +10,8 @@ import CadastroPet from './pages/CadastroPet';
 import ContaPetCriada from './pages/ContaPetCriada';
 import Servico2 from './pages/Servico2';
 import Servico3 from './pages/Servico3';
-import Revisao from './pages/Revisao';
 import Confirmacao from './pages/Confirmacao';
+import Promocoes from './pages/Promocoes';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
         <Route path="/servico-end" exact Component={Servico2}/>
         <Route path="/servico-final" exact Component={Servico3}/>
         <Route path="/confirmacao" exact Component={Confirmacao}/>
-        <Route path="/revisao" exact Component={Revisao}/>
+        <Route path="/promocoes" exact Component={Promocoes}/>
         </Routes>
         <Footer />
       </Router>

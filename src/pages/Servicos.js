@@ -1,6 +1,7 @@
 import React from 'react'
 import YorkieTosa from '../assets/Yorkie_tosa.png';
 import '../styles/Servicos.css';
+import { Link } from 'react-router-dom';
 
 
 function Servicos() {
@@ -17,54 +18,34 @@ function Servicos() {
             <div className='banner' style={{ backgroundImage: `url(${YorkieTosa})` }}>        </div>
 
 
-            <h4>Selecione o Tipo</h4>
+            <h1>O banho será para:</h1>
+
+            <h2> 
             <div className='check'>
-                <input value="One" type="checkbox" onChange={handleChange} />
-                <span> Cachorro </span>
+                <input value="Three" type="radio" name="myRadio1" />
+                    <span> Gato (R$ 45,00)</span>
+            </div>
+            <div className='check'>
+                <input value="One" type="radio" name="myRadio1" />
+                <span> *Cachorro (Selecione o porte abaixo): </span>
+            </div>
+            </h2>
+            
+            <div className='check'>
+                <input value="Three" type="radio" name="myRadio2" />
+                <span> *Pequeno (até 15kg | R$ 70,00)</span>
+            </div>
+            <div className='check'>
+                <input value="One" type="radio" name="myRadio2" />
+                <span> *Médio (entre 16kg e 30kg | R$ 90,00) </span>
             </div>
 
             <div className='check'>
-                <input value="Three" type="checkbox" onChange={handleChange} />
-                <span> Gato </span>
-            </div>
-
-            <h4>Selecione o Porte</h4>
-            <div className='check'>
-                <input value="One" type="checkbox" onChange={handleChange} />
-                <span> Mini </span>
-            </div>
-
-            <div className='check'>
-                <input value="Three" type="checkbox" onChange={handleChange} />
-                <span> Pequeno </span>
-            </div>
-            <div className='check'>
-                <input value="One" type="checkbox" onChange={handleChange} />
-                <span> Médio </span>
-            </div>
-
-            <div className='check'>
-                <input value="Three" type="checkbox" onChange={handleChange} />
-                <span> Grande </span>
+                <input value="Three" type="radio" name="myRadio2" />
+                <span> *Grande (mais de 31kg | R$ 130,00)</span>
             </div>
 
 
-            <h4>Selecione o Tipo de Serviço</h4>
-
-            <div className='check'>
-                <input value="One" type="checkbox" onChange={handleChange} />
-                <span> Banho </span>
-            </div>
-
-            <div className='check'>
-                <input value="Three" type="checkbox" onChange={handleChange} />
-                <span> Banho e Tosa Higiênica </span>
-            </div>
-
-            <div className='check'>
-                <input value="Four" type="checkbox" onChange={handleChange} />
-                <span> Banho e Tosa Completa </span>
-            </div>
 
             <div>
                 <h4>
@@ -74,22 +55,36 @@ function Servicos() {
                 </h4>
 
                 <div className='check'>
-                    <input value="One" type="checkbox" onChange={handleChange} />
-                    <span> Escovação de dentes </span>
+                    <input value="One" type="checkbox" />
+                    <span> Cortar unhas (+ R$ 15,00) </span>
                 </div>
 
                 <div className='check'>
-                    <input value="Two" type="checkbox" onChange={handleChange} />
-                    <span> Hidratação </span>
+                    <input value="Two" type="checkbox" />
+                    <span> Hidratação (+ R$ 20,00)</span>
+                </div>
+
+                <div className='check'>
+                    <input value="Three" type="checkbox" />
+                    <span> Tosa Higiênica (+ R$ 15,00)</span>
+                </div>
+
+                <div className='check'>
+                    <input value="Four" type="checkbox" />
+                    <span> Tosa Completa (+ R$ 30,00) </span>
                 </div>
 
                 <div>
                     <h2>
                         <div>
-                            <button className='avancar'>Avançar</button>
+                            <Link to="/servico-end">
+                                <button className='avancar'>Avançar</button>
+                            </Link>
                         </div>
                         <div>
-                            <button className='voltar'>Voltar</button>
+                            <Link to="/compras">
+                                <button className='voltar'>Voltar</button>
+                            </Link>
                         </div>
                     </h2>
 

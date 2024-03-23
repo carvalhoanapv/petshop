@@ -12,7 +12,6 @@ function Navbar() {
         <div className='rightSide'>
           <Link to='/'> Inicio </Link>
           <Link to='/compras'> Compras </Link>
-          <Link to='/promocoes'> Promoções </Link>
           <Link to='/servicos'> Banho e Tosa </Link>
           <Link to='/perfil'> Perfil </Link>
         </div>
