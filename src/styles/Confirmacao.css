@@ -1,0 +1,79 @@
+.confirmacao {
+    background-color: #faf4ef;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding: 20px 50px 200px 100px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+
+    img {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 35%;
+        width: 90%;
+        display: flex;
+        padding: 0 1em;
+        margin: 0px 6px;
+    }
+
+
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: black;
+        margin: 20px 6px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: black;
+        margin: 10px 6px;
+
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: black;
+        text-align: left;
+        line-height:50px;
+    }
+
+    button {
+        background-color: #DF995B;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s ease-in;
+        font-size: 25px;
+        font-weight: regular;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 0;
+        padding: 24px 100px;
+        display: inline-block;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 20px 6px;
+        margin-top: 10px; 
+        &:hover {
+            color: #DF995B;
+            background-color: white;
+        }
+    }
+
+
+}

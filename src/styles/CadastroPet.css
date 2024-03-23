@@ -1,0 +1,125 @@
+.CadastroPet {
+    background-color: #faf4ef;
+    max-width: 100%;
+    margin-bottom: auto;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 0;
+    padding: 0 1em;
+
+    .banner {
+        margin-bottom: auto;
+        background-image: url(../assets/profile_banner.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 30%;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 0.5;
+        padding: 0 1em;
+    }
+
+    .headerContainer {
+        margin-bottom: auto;
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 0;
+        padding: 0 1em;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: black;
+    }
+
+
+    button {
+        background-color: #DF995B;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s ease-in;
+        font-size: 20px;
+        font-weight: regular;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 0;
+        padding: 20px 100px;
+        display: inline-block;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 35px 6px;
+        height: 30px;
+
+        &:hover {
+            color: #DF995B;
+            background-color: white;
+        }
+    }
+
+    .form {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 1.5;
+        padding: 0 1em;
+        max-width: 100%;
+    }
+
+    label {
+        font-size: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        text-align: right;
+        width: 100px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        height: 35px;
+        width: 100%;
+        flex: 1 1 200px;
+        margin-left: 10px;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 1;
+        color: black;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+}
