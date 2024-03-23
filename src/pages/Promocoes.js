@@ -8,7 +8,7 @@ function Promocoes() {
     <div className="carrossel">
       <Carrossel  />
       <div>
-     <Link to="/">
+     <Link to="/petshop">
          <button className='voltar'>Voltar</button>
          </Link>
      </div>
