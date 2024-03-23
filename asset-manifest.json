@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/petshop/static/css/main.30bc03e4.css",
+    "main.js": "/petshop/static/js/main.63e2045b.js",
+    "static/js/453.82c8375d.chunk.js": "/petshop/static/js/453.82c8375d.chunk.js",
+    "static/media/Gatos_foto1.png": "/petshop/static/media/Gatos_foto1.2830873d965bd68b9b54.png",
+    "static/media/Yorkie_tosa.png": "/petshop/static/media/Yorkie_tosa.ed326cebd36007f10b14.png",
+    "static/media/RoyalCaninCaoMiniIndoor.png": "/petshop/static/media/RoyalCaninCaoMiniIndoor.c929f209eaed65c36dd3.png",
+    "static/media/whiskas_offers.png": "/petshop/static/media/whiskas_offers.cfc8bc2602641077dba2.png",
+    "static/media/Golden_offers.png": "/petshop/static/media/Golden_offers.53179a2de957d7f227be.png",
+    "static/media/Royal_Canin_offers.png": "/petshop/static/media/Royal_Canin_offers.f9c88a0545b415218237.png",
+    "static/media/whiskas_gato_castrado_umida_.png": "/petshop/static/media/whiskas_gato_castrado_umida_.175420ca661659250a09.png",
+    "static/media/whiskas_racao_seca_gatos.png": "/petshop/static/media/whiskas_racao_seca_gatos.ec1b056cc41c16018f67.png",
+    "static/media/hills_cao_umida.png": "/petshop/static/media/hills_cao_umida.d74076b46d3b9021326d.png",
+    "static/media/royalCanin_gato_umida.png": "/petshop/static/media/royalCanin_gato_umida.db28b29639b190485f66.png",
+    "static/media/goldenEspecialCao.png": "/petshop/static/media/goldenEspecialCao.a7377dcfd57f7b883fe3.png",
+    "static/media/hills_cao_racao_seca.png": "/petshop/static/media/hills_cao_racao_seca.ac213963abafb3ded939.png",
+    "static/media/hills_gato_castrado_seca.png": "/petshop/static/media/hills_gato_castrado_seca.8c208df695852b86a48e.png",
+    "static/media/royalCaninSacheGato.jpg": "/petshop/static/media/royalCaninSacheGato.460079679bd07501688b.jpg",
+    "static/media/royalCanin_cao_umida.png": "/petshop/static/media/royalCanin_cao_umida.15d4b7f2fb9ad2c893a9.png",
+    "static/media/royalCanin_gato_seca.png": "/petshop/static/media/royalCanin_gato_seca.e66d6d4d12ee52c6d3a8.png",
+    "static/media/profile_banner.png": "/petshop/static/media/profile_banner.b62d5fd4d7774e9a0110.png",
+    "static/media/heart_banner.png": "/petshop/static/media/heart_banner.c76fe7393a69395a924b.png",
+    "static/media/logo_petshop.png": "/petshop/static/media/logo_petshop.70745c1eb7d6664844b6.png",
+    "static/media/calendar_banner.png": "/petshop/static/media/calendar_banner.311870c4f275868f5288.png",
+    "index.html": "/petshop/index.html",
+    "main.30bc03e4.css.map": "/petshop/static/css/main.30bc03e4.css.map",
+    "main.63e2045b.js.map": "/petshop/static/js/main.63e2045b.js.map",
+    "453.82c8375d.chunk.js.map": "/petshop/static/js/453.82c8375d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30bc03e4.css",
+    "static/js/main.63e2045b.js"
+  ]
+}
